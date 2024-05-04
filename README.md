@@ -1,1 +1,3 @@
-fist of pip install qrcode and import qr code
+fist 
+pip install qrcode 
+and import qr code
