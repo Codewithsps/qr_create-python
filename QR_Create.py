@@ -1,5 +1,6 @@
 from tkinter.ttk import Scale
 import qrcode
-img = qrcode.make('https://codewithsps.github.io/sps/') #some data here
+qrcodegenrate = input("Enter some text:")#qr code vale
+img = qrcode.make(qrcodegenrate) 
 type(img)
-img.save("qr.png") #file name
+img.save("qrgenrate.png") #file name
